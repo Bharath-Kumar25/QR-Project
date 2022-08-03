@@ -1,0 +1,35 @@
+html, body{
+    background-color: grey;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    border-right: 60px;
+    border-radius: 30px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+img{
+    border-radius: 30px;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    opacity: 0.85;
+}
+
